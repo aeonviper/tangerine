@@ -1,0 +1,89 @@
+# Home
+
+tangerine.controller.HomeController|show||^/home$
+
+# Authentication
+
+tangerine.controller.AuthenticationController|register||^/register$
+tangerine.controller.AuthenticationController|doRegister||^/register/do$
+tangerine.controller.AuthenticationController|login||^/login$
+tangerine.controller.AuthenticationController|doLogin||^/login/do$
+tangerine.controller.AuthenticationController|doLogout||^/logout/do$
+tangerine.controller.AuthenticationController|forgotPassword||^/forgot/password$
+tangerine.controller.AuthenticationController|resetPassword||^/reset/password$
+tangerine.controller.AuthenticationController|doResetPassword||^/reset/password/do$
+
+# Question
+
+tangerine.controller.QuestionController|ask||^/question/ask$
+tangerine.controller.QuestionController|doAsk||^/question/ask/do$
+tangerine.controller.QuestionController|doUpload||^/question/upload/do$
+tangerine.controller.QuestionController|inquire||^/question/inquire$
+tangerine.controller.QuestionController|doInquire||^/question/inquire/do$
+tangerine.controller.QuestionController|doReview||^/question/review/do$
+tangerine.controller.QuestionController|doDelete||^/question/delete/do$
+tangerine.controller.QuestionController|doClose||^/question/close/do$
+tangerine.controller.QuestionController|doOpen||^/question/open/do$
+tangerine.controller.QuestionController|view|id|^/question/([0-9\-]+)$
+tangerine.controller.QuestionController|viewConversation|id,answerUserId|^/question/([0-9\-]+)/([0-9\-]+)$
+
+# Answer
+
+tangerine.controller.AnswerController|doAnswer||^/answer/do$
+tangerine.controller.AnswerController|doDelete||^/answer/delete/do$
+
+# Dashboard
+
+tangerine.controller.DashboardController|show||^/dashboard$
+tangerine.controller.DashboardController|doFilter||^/dashboard/filter/do$
+
+# Panel
+
+tangerine.controller.PanelController|show||^/panel$
+
+# Configuration
+
+tangerine.controller.ConfigurationController|view||^/configuration$
+tangerine.controller.ConfigurationController|doEditPassword||^/password/edit/do$
+tangerine.controller.ConfigurationController|doEditProfile||^/profile/edit/do$
+tangerine.controller.ConfigurationController|doEditEmail||^/email/edit/do$
+tangerine.controller.ConfigurationController|doCancelEmailNew||^/email/new/cancel/do$
+tangerine.controller.ConfigurationController|doVerifyEmailNew||^/email/new/verify/do$
+
+# Verification
+
+tangerine.controller.VerificationController|verifyCode||^/verify/code$
+tangerine.controller.VerificationController|verifyTextId||^verify/textId$
+tangerine.controller.VerificationController|verifyUserTextId|userTextId|^/verify/user/([a-zA-Z0-9]+)$
+tangerine.controller.VerificationController|verifyTextId|textId|^/verify/([a-zA-Z0-9\-]+)$
+
+# Subscription
+
+tangerine.controller.SubscriptionController|buyStandard||^/subscription/buy/standard$
+tangerine.controller.SubscriptionController|buyGold||^/subscription/buy/gold$
+tangerine.controller.SubscriptionController|buyPlatinum||^/subscription/buy/platinum$
+tangerine.controller.SubscriptionController|doBuyStandard||^/subscription/buy/standard/do$
+tangerine.controller.SubscriptionController|doBuyGold||^/subscription/buy/gold/do$
+tangerine.controller.SubscriptionController|doBuyPlatinum||^/subscription/buy/platinum/do$
+tangerine.controller.SubscriptionController|doToggleRenewal|id|^/subscription/([0-9\-]+)/renewal/toggle/do$
+
+tangerine.controller.SubscriptionController|subscriptionJob||^/job/subscription$
+
+# Voucher
+
+tangerine.controller.VoucherController|applyVoucher||^/voucher/apply$
+
+# Administration
+
+tangerine.controller.AdministrationController|supervision||^/supervision$
+tangerine.controller.AdministrationController|login||^/administration/login$
+tangerine.controller.AdministrationController|doLogin||^/administration/login/do$
+tangerine.controller.AdministrationController|doLogout||^/administration/logout/do$
+tangerine.controller.AdministrationController|administration||^/administration$
+tangerine.controller.AdministrationController|doImpersonate||^/administration/impersonate/do$
+
+# System
+
+tangerine.controller.UtilityController|midnight||^/system/utility/midnight$
+tangerine.controller.UtilityController|now||^/system/utility/now$
+tangerine.controller.UtilityController|dateTimeConvert||^/system/utility/datetime/convert$
