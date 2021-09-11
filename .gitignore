@@ -1,0 +1,10 @@
+.project
+.classpath
+.tomcatplugin
+.hgignore
+.hg/
+.settings/
+data/
+WEB-INF/classes/
+resource/asset/
+target/
